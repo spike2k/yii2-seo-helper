@@ -15,7 +15,7 @@ class Helper extends \yii\base\Component
 
     public function set($model){
 
-    	echo "HERE";
+    	print_r($model->attributes);
 
     }
 }
