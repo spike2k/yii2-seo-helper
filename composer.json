@@ -2,7 +2,7 @@
     "name": "warsztatweb/yii2-seo-helper",
     "description": "Set SEO variables (Title, Description etc) from every model;",
     "type": "library",
-    "keywords": ["seo","helper","activerecord seo"],
+    "keywords": ["seo","helper","activerecord seo","redirect 301","seo redirects"],
     "license": "GPL-3.0+",
     "authors": [
         {
@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "devgroup/yii2-jsoneditor": "*"
     },
     "autoload": {
         "psr-4": {
